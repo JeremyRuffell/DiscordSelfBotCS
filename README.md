@@ -1,2 +1,2 @@
-# DiscordSelfBotCS
-A C# Discord Selfbot that fits the API standards
+# DiscordSelfbotCS
+ C# Discord Selfbot using Up To Date api standards
