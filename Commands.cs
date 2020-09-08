@@ -13,7 +13,7 @@ namespace DiscordSelfBotCS
     public class Commands
     {
         [Command("stream")]
-        public async Task Ping(CommandContext ctx, string streamname)
+        public async Task Stream(CommandContext ctx, string streamname)
         {
 
             DiscordGame Game = new DiscordGame();
