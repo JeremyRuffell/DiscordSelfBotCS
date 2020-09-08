@@ -1,5 +1,5 @@
 dist: xenial
-sudo: required
+os: linux
 language: csharp
 mono: none
 dotnet: 3.0
@@ -7,7 +7,7 @@ script:
   - dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
 deploy:
   provider: releases
-  api_key: "${GithubToken}"
+  token: "${GithubToken}"
   file: "release.zip"
   skip_cleanup: true
   on:
